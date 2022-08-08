@@ -80,7 +80,6 @@ const SearchScreen = ({
           onKeyDown={getLocationHandler}
         />
         {weatherDataLocs?.map((loc, idx) => {
-          console.log(loc.crnt);
           return (
             <Window
               key={loc.city}
