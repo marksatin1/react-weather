@@ -1,0 +1,18 @@
+.hours-box {
+  padding-top: 5px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.hour {
+  text-align: center;
+}
+
+.time {
+  font-size: 15px;
+}
+
+.temp {
+  font-size: 18px;
+  font-weight: bold;
+}

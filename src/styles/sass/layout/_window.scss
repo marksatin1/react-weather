@@ -1,0 +1,60 @@
+.window {
+  &-lg {
+    @extend %window;
+    margin: $margin-lg;
+  }
+
+  &-sm {
+    @extend %window;
+    margin: $margin-xs;
+    h4 {
+      font-size: 24px;
+    }
+    .sunset-icon-box {
+      text-align: center;
+    }
+    #sunset-icon {
+      width: 70px;
+      height: 70px;
+      margin: 0;
+    }
+
+    .children {
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .units {
+      font-size: 16px;
+    }
+  }
+
+  &-alerts {
+    @extend %window;
+    margin: $margin-lg;
+    max-height: 200px;
+    overflow-y: scroll;
+    background-color: $alert-color;
+    box-shadow: -1px 2px 1px black;
+    white-space: pre-line;
+  }
+
+  &-location {
+    @extend %window;
+    margin: $margin-lg;
+    cursor: pointer;
+  }
+}
+
+.title {
+  color: $secondary-color;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 5px white;
+}
+
+.flex-btw {
+  border: 1px solid black;
+}

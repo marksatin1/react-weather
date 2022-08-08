@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Outfit&display=swap');
+
+// THEME COLORS
+$primary-color: #b99211;
+$secondary-color: #09aa71;
+$alert-color: rgba(239, 34, 2, 0.7);
+
+$footer-color: aqua;
+
+$window-color-1: rgba(233, 239, 245, 0.85);
+$window-color-2: rgba(119, 111, 111, 0.85);
+
+// LAYOUT
+$margin-lg: 20px 0;
+$margin-sm: 10px 0;
+$margin-xs: 5px 0;
+
+%center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+// FONT
+$window-font: 12px;
+$text-color-1: black;
+$text-color-2: white;
+
+// COMPONENTS
+
+%window {
+  background-image: linear-gradient(60deg, $window-color-1, $window-color-2);
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: -1px 2px 1px $secondary-color;
+}
+
+%button {
+  background-color: $primary-color;
+  border: none;
+  border-radius: 25px;
+  color: $text-color-2;
+  font-weight: bold;
+  box-shadow: -1px 1px 1px $text-color-1;
+  cursor: pointer;
+}
+
+// BASE STYLES
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  width: 50px;
+}

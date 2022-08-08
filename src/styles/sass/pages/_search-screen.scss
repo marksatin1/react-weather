@@ -1,0 +1,47 @@
+.search-screen {
+  padding: 20px;
+  background-color: $window-color-1;
+  height: 100%;
+}
+
+#search-bar {
+  width: 100%;
+  outline: 2px solid $primary-color;
+  border-radius: 25px;
+  margin: 10px 0;
+  padding: 8px;
+  color: $secondary-color;
+  font-weight: bold;
+  border: none;
+}
+
+.loc-btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loc-btns button {
+  border: none;
+  margin: 15px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

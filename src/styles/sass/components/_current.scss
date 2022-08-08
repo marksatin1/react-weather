@@ -1,0 +1,33 @@
+.current {
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+  color: $text-color-2;
+
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+.temp-box > * {
+  display: inline;
+}
+
+#degree {
+  position: absolute;
+  top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#descrip {
+  margin: 5px 0;
+}

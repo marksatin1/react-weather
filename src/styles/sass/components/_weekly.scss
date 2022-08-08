@@ -1,0 +1,25 @@
+.days-box {
+  height: 200px;
+  overflow-y: scroll;
+  padding: 0 10px;
+}
+
+.day {
+  border-bottom: 1px solid $secondary-color;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.daily-meter-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  p {
+    font-weight: bold;
+  }
+}
+
+#daily-meter {
+  margin: 0 5px;
+}
