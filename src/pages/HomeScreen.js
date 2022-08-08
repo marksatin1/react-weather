@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-
 import LocationCard from '../components/LocationCard';
 import Footer from '../components/Footer';
 
